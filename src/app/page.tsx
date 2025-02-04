@@ -1,13 +1,10 @@
 // pages/page.tsx
-import Navbar from "../components/Navbar.js"; // Adjust the path if needed
-import BackgroundLines from "../components/backgroundlines.js";
+import Home from "../pages/home.js"
 
 export default function Page() {
   return (
     <div>
-      <Navbar />
-      <BackgroundLines />
-
+      <Home/>      
     </div>
   );
 }
