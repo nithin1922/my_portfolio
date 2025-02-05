@@ -6,7 +6,7 @@ import { FloatingDockDemo } from "../components/FloatingDock.js"
 export default function BackgroundLinesDemo() {
   return (
     (
-    <div className="flex items-center justify-center w-full flex-col px-4">
+    <div className="mt-10">
     <BackgroundLines className="flex flex-col items-center text-center w-full">
     <Image className= "relative z-20 border-4 border-white rounded-full mt-20" src="/myimage.jpeg" alt="x" width={300} height={300}  />
       <h2
