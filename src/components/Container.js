@@ -2,6 +2,7 @@
 import React from "react";
 import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
+import { StickyScrollRevealDemo } from "../components/StickyScrollReveal.js"
 
 export function HeroScrollDemo() {
   return (
@@ -17,13 +18,7 @@ export function HeroScrollDemo() {
             </h1>
           </>
         }>
-        <Image
-          src={`/linear.webp`}
-          alt="hero"
-          height={720}
-          width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top"
-          draggable={false} />
+        <StickyScrollRevealDemo/>
       </ContainerScroll>
     </div>)
   );

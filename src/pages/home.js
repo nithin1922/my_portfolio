@@ -7,15 +7,16 @@ import { HeroScrollDemo } from "../components/Container.js"
 import { TimelineDemo } from "../components/Timeline.js";
 import { AuroraBackgroundDemo } from "../components/AuroraBackground.js";
 import { BackgroundBeamsWithCollisionDemo }  from "../components/BackgroundPops.js"
-
+import { StickyScrollRevealDemo } from "../components/StickyScrollReveal.js"
 
 export default function Home() {
     return(
         <div>
             <NavbarDemo />
-            <AuroraBackgroundDemo/>         
+            <AuroraBackgroundDemo/>
+            <HeroScrollDemo/>     
             <TimelineDemo/>
-            <HeroScrollDemo/>
+            
         </div>
 
     )
