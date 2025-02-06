@@ -93,7 +93,7 @@ export const Menu = ({
       onMouseLeave={() => setActive(null)} // resets the state
       animate={{ y: visible ? 0 : "-100%" }} // Added animation to move navbar up/down
       transition={{ duration: 0.3, ease: "easeInOut" }}
-      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white/90 backdrop-blur-md shadow-input flex justify-center space-x-14 px-8 py-6 "
+      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] backdrop-blur-md shadow-input flex justify-center space-x-14 px-8 py-6 "
     >
       {children}
     </motion.nav>
