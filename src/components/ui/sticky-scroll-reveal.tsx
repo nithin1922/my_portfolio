@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import Image from "next/image"
 
 export const StickyScroll = ({
   content,
@@ -39,6 +40,13 @@ export const StickyScroll = ({
     );
     setActiveCard(closestBreakpointIndex);
   });
+
+  const backgroundImages = [
+    "/AboutImage.webp",
+    "/TechStack.webp",
+    "/Beyondthecode.webp",
+    "/learn.jpeg",
+  ];
 
   const backgroundColors = [
     "var(--slate-900)",
@@ -96,14 +104,13 @@ export const StickyScroll = ({
           <div className="h-40" />
         </div>
       </div>
-      <div
-        style={{ background: backgroundGradient }}
-        className={cn(
-          "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden",
-          contentClassName
-        )}
-      >
-        {content[activeCard].content ?? null}
+      <div className="hidden lg:block h-60 w-80 rounded-md sticky top-10 overflow-hidden relative">
+      < Image
+          src={backgroundImages[activeCard]} 
+          alt="Background image"
+          fill
+          className="object-cover"
+      />
       </div>
     </motion.div>
   );

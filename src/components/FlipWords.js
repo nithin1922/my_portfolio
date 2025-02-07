@@ -3,7 +3,7 @@ import { FlipWords } from "./ui/flip-words";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 export function FlipWordsDemo() {
-  const words = ["Software Development", "Data Engineering" ,"Artificial Intelligence" , "Machine Learning"];
+  const words = ["Software Development", "Data Engineering" ,"Artificial Intelligence" , "Machine Learning","Cloud Computing"];
   const name = [
     {
       text: "Sai",
