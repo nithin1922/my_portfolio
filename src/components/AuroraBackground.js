@@ -23,9 +23,9 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4">
               <div className="mt-10 flex flex-col items-center text-center w-full">
-              <Image className= "relative z-20 border-4 border-white rounded-full mt-20" src="/myimage.jpeg" alt="x" width={300} height={300}  />
+              <Image className= "relative z-20 border-4 border-white rounded-full mt-20" src="/myimage.jpeg" alt="x" width={400} height={300}  />
                 <FlipWordsDemo/>
-                <div className="mt-10">
+                <div className="mt-5">
                 <FloatingDockDemo/>
                 </div>
               </div>
