@@ -9,6 +9,8 @@ import Image from "next/image";
 import { FloatingDockDemo } from "../components/FloatingDock.js"
 import { FlipWordsDemo } from "../components/FlipWords.js"
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+import BackgrounGradientDemo from "../components/BackgroundGradient.js"
+import {AnimatedTooltipPreview} from "../components/AnimatedTooltip"
 
 export function AuroraBackgroundDemo() {
   return (
@@ -23,9 +25,10 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4">
               <div className="mt-10 flex flex-col items-center text-center w-full">
-              <Image className= "relative z-20 border-4 border-white rounded-full mt-20" src="/myimage.jpeg" alt="x" width={400} height={300}  />
+                <BackgrounGradientDemo/>
                 <FlipWordsDemo/>
                 <div className="mt-5">
+                <AnimatedTooltipPreview/>
                 <FloatingDockDemo/>
                 </div>
               </div>

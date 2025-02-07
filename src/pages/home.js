@@ -9,6 +9,7 @@ import { AuroraBackgroundDemo } from "../components/AuroraBackground.js";
 import { BackgroundBeamsWithCollisionDemo }  from "../components/BackgroundPops.js"
 import { StickyScrollRevealDemo } from "../components/StickyScrollReveal.js"
 
+
 export default function Home() {
     return(
         <div>
