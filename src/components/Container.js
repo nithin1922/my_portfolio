@@ -10,7 +10,7 @@ export function HeroScrollDemo() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
+            <h1 className="text-6xl font-semibold text-black dark:text-white">
                 Who Am I  <br />
               <span className="text-4xl md:text-[3rem] font-bold mt-1 leading-none">
                 & What I Do

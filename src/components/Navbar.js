@@ -21,10 +21,10 @@ function Navbar({
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="About" >
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/web-dev">Me</HoveredLink>
+            <HoveredLink href="/interface-design">Tech Stack</HoveredLink>
+            <HoveredLink href="/seo">Interests</HoveredLink>
+           {/* <HoveredLink href="/branding">Certifications</HoveredLink> */}
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
@@ -53,10 +53,9 @@ function Navbar({
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Resume">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+            <HoveredLink href="/hobby"> Overview</HoveredLink>
+            <HoveredLink href="/individual">Res Bot</HoveredLink>
+            <HoveredLink href="/team">Download </HoveredLink>
           </div>
         </MenuItem>
       </Menu>

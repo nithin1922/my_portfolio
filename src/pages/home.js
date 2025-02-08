@@ -8,17 +8,18 @@ import { TimelineDemo } from "../components/Timeline.js";
 import { AuroraBackgroundDemo } from "../components/AuroraBackground.js";
 import { BackgroundBeamsWithCollisionDemo }  from "../components/BackgroundPops.js"
 import { StickyScrollRevealDemo } from "../components/StickyScrollReveal.js"
+import { TracingBeam } from "../components/ui/tracing-beam.tsx";
 
 
 export default function Home() {
     return(
-        <div>
-            <NavbarDemo />
-            <AuroraBackgroundDemo/>
-            <HeroScrollDemo/>     
-            <TimelineDemo/>
-            
-        </div>
+    <TracingBeam>
+        {/* <NavbarDemo />  //Add After Projects section is built*/}
+        <AuroraBackgroundDemo/>
+        <HeroScrollDemo/>     
+        <TimelineDemo/>
+    </TracingBeam>
+        
 
     )
 }

@@ -23,7 +23,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandWhatsapp  className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://api.whatsapp.com/send?phone=16182033991",
     },
 
     {
@@ -31,36 +31,22 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandGmail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "mailto:sainithinreddy1901@gmail.com",
     },
     {
       title: "LinkedIn",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
-    },
-    {
-      title: "Facebook",
-      icon: (
-        <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      href: "https://www.linkedin.com/in/sai-nithin-reddy-v-",
     },
 
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/nithin1922",
     },
   ];
   return (

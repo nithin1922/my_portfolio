@@ -3,6 +3,7 @@ import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Image from "next/image";
 
+
 export default function BackgroundGradientDemo() {
   return (
     (<div className="flex justify-center items-center">
@@ -12,7 +13,7 @@ export default function BackgroundGradientDemo() {
           alt="jordans"
           height="300"
           width="300"
-          objectFit="cover"
+          
           className="rounded-3xl" />
       </BackgroundGradient>
     </div>)

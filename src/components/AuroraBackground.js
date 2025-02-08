@@ -11,10 +11,12 @@ import { FlipWordsDemo } from "../components/FlipWords.js"
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import BackgrounGradientDemo from "../components/BackgroundGradient.js"
 import {AnimatedTooltipPreview} from "../components/AnimatedTooltip"
+import { TracingBeam } from "../components/ui/tracing-beam.tsx";
 
 export function AuroraBackgroundDemo() {
   return (
-    (<AuroraBackground>
+    (
+    <AuroraBackground>
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -34,6 +36,7 @@ export function AuroraBackgroundDemo() {
               </div>
 
       </motion.div>
-    </AuroraBackground>)
+    </AuroraBackground>
+    )
   );
 }
