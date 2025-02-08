@@ -13,7 +13,7 @@ export default function BackgroundGradientDemo() {
           alt="jordans"
           height="300"
           width="300"
-          
+          objectFit="cover"
           className="rounded-3xl" />
       </BackgroundGradient>
     </div>)

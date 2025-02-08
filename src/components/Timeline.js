@@ -9,7 +9,7 @@ export function TimelineDemo() {
       content: (
         <div>
             <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-bold mb-8">
             Graduate Assistant
           </p>
           <p
@@ -33,7 +33,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-bold mb-8">
             Masters of Science in Computer Science
           </p>
           <p
@@ -57,7 +57,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-bold mb-4">
             Data Engineer at Accenture
           </p>
           <p
@@ -81,7 +81,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-bold mb-4">
             Software Engineer Intern
           </p>
           <p
@@ -105,7 +105,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p
-            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-bold mb-4">
             Bachelor of Technology in Information Technology
           </p>
           <p

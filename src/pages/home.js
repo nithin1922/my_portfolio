@@ -9,6 +9,7 @@ import { AuroraBackgroundDemo } from "../components/AuroraBackground.js";
 import { BackgroundBeamsWithCollisionDemo }  from "../components/BackgroundPops.js"
 import { StickyScrollRevealDemo } from "../components/StickyScrollReveal.js"
 import { TracingBeam } from "../components/ui/tracing-beam.tsx";
+import { Footer} from "../components/Footer.tsx"
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <AuroraBackgroundDemo/>
         <HeroScrollDemo/>     
         <TimelineDemo/>
+        <Footer/>
     </TracingBeam>
         
 

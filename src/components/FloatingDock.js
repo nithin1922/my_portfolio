@@ -19,6 +19,13 @@ import Image from "next/image";
 export function FloatingDockDemo() {
   const links = [
     {
+      title: "LinkedIn",
+      icon: (
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://www.linkedin.com/in/sai-nithin-reddy-v-",
+    },
+    {
       title: "WhatsApp",
       icon: (
         <IconBrandWhatsapp  className="h-full w-full text-neutral-500 dark:text-neutral-300" />
@@ -33,14 +40,6 @@ export function FloatingDockDemo() {
       ),
       href: "mailto:sainithinreddy1901@gmail.com",
     },
-    {
-      title: "LinkedIn",
-      icon: (
-        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "https://www.linkedin.com/in/sai-nithin-reddy-v-",
-    },
-
     {
       title: "GitHub",
       icon: (

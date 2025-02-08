@@ -50,10 +50,16 @@ const content = [
     ),
   },
   {
-    title: "What I’ve Learned",
+    title: "Projects I’ve Worked on",
     description:
       <span>
-      Microsoft Certified: Azure Data Engineer Associate <br/> AWS Certified Solutions Architect Associate <br/> Google Cloud Professional Data Engineer
+      Question Answering System using Natural Language Processing:<br/>
+      • Developed an AI-powered question answering system that provides precise answers extracted from documents by utilizing transformer architecture to train on advanced vocabulary and grammar learning techniques, enabling direct answer extraction from document datasets.<br/>
+      • Tools Used: Tensor flow, Machine Learning, Python, Jupyter Notebook<br/> 
+      <br/>
+      Blockchain Based Voting System<br/>
+      • Created a decentralized voting application on the Ethereum blockchain that leverages smart contracts written in Solidity to ensure secure and tamper-proof electronic voting across multiple devices, providing a robust and transparent voting mechanism.<br/>
+      • Tools Used: Ethereum Blockchain, Solidity, Smart Contracts, Web3 Technologies, Decentralized Applications
       </span>,
     content: (
       <div
