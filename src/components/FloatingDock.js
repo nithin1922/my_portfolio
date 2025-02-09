@@ -2,19 +2,11 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandFacebook,
-  IconBrandFacebookFilled,
   IconBrandGithub,
   IconBrandGmail,
   IconBrandLinkedin,
   IconBrandWhatsapp,
-  IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [

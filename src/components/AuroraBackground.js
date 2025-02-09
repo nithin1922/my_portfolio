@@ -3,15 +3,10 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "./ui/aurora-background";
-import backgroundLinesDemo from "../components/backgroundlines.js"
-import { BackgroundLines } from "@/components/ui/background-lines";
-import Image from "next/image";
 import { FloatingDockDemo } from "../components/FloatingDock.js"
 import { FlipWordsDemo } from "../components/FlipWords.js"
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import BackgrounGradientDemo from "../components/BackgroundGradient.js"
 import {AnimatedTooltipPreview} from "../components/AnimatedTooltip"
-import { TracingBeam } from "../components/ui/tracing-beam.tsx";
 
 export function AuroraBackgroundDemo() {
   return (

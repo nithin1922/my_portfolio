@@ -1,6 +1,5 @@
 import React from "react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { FloatingDockDemo } from "../components/FloatingDock.js"
 import { FlipWordsDemo } from "../components/FlipWords.js"
