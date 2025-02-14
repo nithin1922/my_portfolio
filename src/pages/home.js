@@ -4,7 +4,8 @@ import { TimelineDemo } from "../components/Timeline.js";
 import { AuroraBackgroundDemo } from "../components/AuroraBackground.js";
 import { TracingBeam } from "../components/ui/tracing-beam.tsx";
 import { Footer} from "../components/Footer.tsx"
-
+import Chatbot  from "../components/Chatbot.js"
+ 
 
 export default function Home() {
     return(
@@ -14,6 +15,7 @@ export default function Home() {
         <HeroScrollDemo/>     
         <TimelineDemo/>
         <Footer/>
+        <Chatbot/>
     </TracingBeam>
         
 

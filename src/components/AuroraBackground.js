@@ -7,6 +7,7 @@ import { FloatingDockDemo } from "../components/FloatingDock.js"
 import { FlipWordsDemo } from "../components/FlipWords.js"
 import BackgrounGradientDemo from "../components/BackgroundGradient.js"
 import {AnimatedTooltipPreview} from "../components/AnimatedTooltip"
+import Image from "next/image";
 
 export function AuroraBackgroundDemo() {
   return (
@@ -22,7 +23,17 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4">
               <div className="mt-10 flex flex-col items-center text-center w-full">
-                <BackgrounGradientDemo/>
+                {/* <BackgrounGradientDemo/> */}
+                <div className="rounded-full overflow-hidden w-[220px] h-[220px]">
+                    <Image
+                        src="/myimage.jpeg"
+                        alt="jordans"
+                        height="300"
+                        width="300"
+                        objectFit="cover"
+                        className="w-full h-full"
+                      />
+                    </div>
                 <FlipWordsDemo/>
                 <div className="mt-5">
                 <AnimatedTooltipPreview/>
