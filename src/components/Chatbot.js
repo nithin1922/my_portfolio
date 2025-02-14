@@ -25,6 +25,7 @@ export default function Chatbot() {
       const data = await res.json();
       setMessages([...newMessages, { role: "ai", text: data.response }]);
     } catch (error) {
+      console.error(error);
       setMessages([...newMessages, { role: "ai", text: "Error fetching response." }]);
     }
     setLoading(false);

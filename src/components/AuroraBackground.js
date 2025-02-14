@@ -5,7 +5,6 @@ import React from "react";
 import { AuroraBackground } from "./ui/aurora-background";
 import { FloatingDockDemo } from "../components/FloatingDock.js"
 import { FlipWordsDemo } from "../components/FlipWords.js"
-import BackgrounGradientDemo from "../components/BackgroundGradient.js"
 import {AnimatedTooltipPreview} from "../components/AnimatedTooltip"
 import Image from "next/image";
 
