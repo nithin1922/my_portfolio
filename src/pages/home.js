@@ -10,7 +10,7 @@ import Chatbot  from "../components/Chatbot.js"
 export default function Home() {
     return(
     <TracingBeam>
-        {/* <NavbarDemo />  //Add After Projects section is built*/}
+        {/* <NavbarDemo />  //Add After Projectss section is built*/}
         <AuroraBackgroundDemo/>
         <HeroScrollDemo/>     
         <TimelineDemo/>
