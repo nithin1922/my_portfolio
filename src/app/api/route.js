@@ -1,8 +1,10 @@
+// OLLAMA_HOST=0.0.0.0:11434 ollama serve
+
 export async function POST(req) {
   try {
     const { prompt } = await req.json();
 
-    const ollamaResponse = await fetch("http://157.185.120.132:11434/api/generate", {
+    const ollamaResponse = await fetch("https://ollama-service-75363654922.us-central1.run.app/api/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
