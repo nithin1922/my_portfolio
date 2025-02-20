@@ -16,7 +16,7 @@ export default function Home() {
         <HeroScrollDemo/>     
         <TimelineDemo/>
         <Footer/>
-        <Chatbot/>
+        {/* <Chatbot/> */}
     </TracingBeam>
         
 
