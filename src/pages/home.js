@@ -5,12 +5,13 @@ import { AuroraBackgroundDemo } from "../components/AuroraBackground.js";
 import { TracingBeam } from "../components/ui/tracing-beam.tsx";
 import { Footer} from "../components/Footer.tsx"
 import Chatbot  from "../components/Chatbot.js"
+import NavbarDemo from "../components/Navbar.js"
  
 
 export default function Home() {
     return(
     <TracingBeam>
-        {/* <NavbarDemo />  //Add After Projectss section is built*/}
+        <NavbarDemo /> 
         <AuroraBackgroundDemo/>
         <HeroScrollDemo/>     
         <TimelineDemo/>

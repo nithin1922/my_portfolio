@@ -124,7 +124,7 @@ export const ProductItem = ({
         <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
           {title}
         </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">
+        <p className="text-neutral-700 text-sm max-w-[16rem] dark:text-neutral-300">
           {description}
         </p>
       </div>
@@ -132,11 +132,30 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: { children: React.ReactNode; href: string } & React.ComponentProps<'a'>) => {
+export const HoveredLink = ({ children, newTab, download, href, ...rest }: { 
+  children: React.ReactNode; 
+  href: string;
+  newTab?: boolean;
+  download?: boolean;
+} & React.ComponentProps<'a'>) => {
+  if (download) {
+    return (
+      <a
+        href={href}
+        download
+        className="text-neutral-700 dark:text-neutral-200 hover:text-black"
+      >
+        {children}
+      </a>
+    );
+  }
+
   return (
     <Link
+      href={href}
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black "
+      {...(newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+      className="text-neutral-700 dark:text-neutral-200 hover:text-black"
     >
       {children}
     </Link>

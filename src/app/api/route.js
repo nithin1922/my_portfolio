@@ -4,7 +4,7 @@ export async function POST(req) {
   try {
     const { prompt } = await req.json();
 
-    const ollamaResponse = await fetch("https://ollama-service-75363654922.us-central1.run.app/api/generate", {
+    const ollamaResponse = await fetch("https://nithin-ai-service-75363654922.us-central1.run.app/api/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

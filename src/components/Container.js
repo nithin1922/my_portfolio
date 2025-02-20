@@ -5,7 +5,7 @@ import { StickyScrollRevealDemo } from "../components/StickyScrollReveal.js"
 
 export function HeroScrollDemo() {
   return (
-    (<div className="flex flex-col overflow-hidden">
+    (<div id="about-me" className="flex flex-col overflow-hidden">
       <ContainerScroll
         titleComponent={
           <>
