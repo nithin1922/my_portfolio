@@ -29,7 +29,7 @@ function Navbar({
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          <div className="  text-sm grid grid-cols-1 md:grid-cols-2 gap-10 p-2 md:p-4">
             <ProductItem
               title="QA system using NLP"
               href="https://github.com/nithin1922/QA-System-using-NLP"
