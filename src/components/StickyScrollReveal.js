@@ -73,7 +73,7 @@ const content = [
         As the industry shifts toward AI, I am deeply invested in Machine Learning, Large Language Models (LLMs), and MLOps. I have worked on NLP-based Question Answering Systems and explored AI model deployment using TensorFlow, PyTorch, and MLflow. My data engineering background gives me a unique edge in building AI pipelines and optimizing model performance in production.
         <br />
         <br />
-        I thrive on solving complex problems and love collaborating with like-minded professionals. I'm actively seeking AI/ML/Data Engineering opportunities where I can bridge the gap between big data, AI models, and cloud computing. If you're working on cutting-edge AI solutions or looking for a data engineer with a passion for AI, let’s connect!
+        I thrive on solving complex problems and love collaborating with like-minded professionals. I&apos;m actively seeking AI/ML/Data Engineering opportunities where I can bridge the gap between big data, AI models, and cloud computing. If you&apos;re working on cutting-edge AI solutions or looking for a data engineer with a passion for AI, let&apos;s connect!
       </>
     ),
     content: (
